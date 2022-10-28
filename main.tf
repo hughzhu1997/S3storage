@@ -1,7 +1,6 @@
 provider "aws" {
   region = "ap-southeast-2"
-  access_key = "AKIA4MOEL6E4ZBEOWD6C"
-  secret_key = "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"
+ 
 }
 
 resource "aws_vpc" "development-vpc" {
